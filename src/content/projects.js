@@ -10,7 +10,7 @@ const projects = [
   {
     title: 'National Institute on Aging (NIA)',
     description:
-      'Travel smarter by saving the places you want to go. This project was an assignment given for an interview. The requirements were to build a web-app that calls the Google Places API. It must include a map with pins and a list of locations, with some interactivity between the two.',
+      'The NIA Site was built with USWDS design system, integrating component based architecture into a Drrupal 10 site',
     skills: [
       'PHP', 
       'Drupal', 

@@ -11,11 +11,11 @@ const Hero = () => {
     <div className="hero-container">
       <Typewriter className="hero-title" text="Matt Clewley" />
       <div className="hero-description">
-        I am a Software Engineer at SingleStore (formerly MemSQL).<br />My
-        passion is building simple, beautiful user experiences.<br />Check out
+        I am a Full Stack Drupal Developer at IQ Solutions.<br />I
+        develop scalable web applications that make it easy for users to find and interact with content.<br />Check out
         my{' '}
         <a href="#projects" onClick={handleScroll}>
-          side-projects
+          work
         </a>{' '}
         below.
       </div>
