@@ -1,29 +1,29 @@
 const statements = [
   {
-    input: 'Justin.location',
+    input: 'Matthew.location',
     return: '"San Jose, CA"',
   },
   {
-    input: 'Justin.contact',
+    input: 'Matthew.contact',
     return:
-      '["<a href="mailto:j.chi2241@gmail.com">j.chi2241@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/justin-chi-64b12b37">LinkedIn</a>", "<a rel="noopener" href="https://github.com/jchi2241">github</a>"]',
+      '["<a href="mailto:mattclew21@gmail.com">mattclew21@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/matthew-clewley-79a915140">LinkedIn</a>", "<a rel="noopener" href="https://github.com/MattClewley">github</a>"]',
   },
   {
-    input: 'Justin.resume',
+    input: 'Matthew.resume',
     return:
-      '"<a rel="noopener" href="/justinchi_resume.pdf" target="_blank">justinchi.pdf</a>"',
+      '"<a rel="noopener" href="/blank_resume.pdf" target="_blank">blank.pdf</a>"',
   },
   {
-    input: 'Justin.interests',
+    input: 'Matthew.interests',
     return: '["design", "basketball", "cooking", "traveling"]',
   },
   {
-    input: 'Justin.education',
+    input: 'Matthew.education',
     return:
       '"B.Sc. Structural Engineering - University of California, San Diego"',
   },
   {
-    input: 'Justin.languages',
+    input: 'Matthew.languages',
     return: '["Typescript", "React", "Go", "Python"]',
   },
 ];

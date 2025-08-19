@@ -1,8 +1,8 @@
 {
-  "name": "justin-chi-portfolio",
-  "description": "Justin's Portfolio",
+  "name": "matt-clewley-portfolio",
+  "description": "Matt's Portfolio",
   "version": "1.0.0",
-  "author": "Justin Chi",
+  "author": "Matthew Clewley",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

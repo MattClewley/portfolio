@@ -1,104 +1,92 @@
-import travlr from 'images/travlr.jpg';
-import stockmarketchart from 'images/stockmarketchart.jpg';
-import wakeyalarmclock from 'images/wakeyalarmclock.jpg';
-import wakeybackgrounds from 'images/wakeybackgrounds.png';
-import calculator from 'images/calculator.jpg';
-import portfolio from 'images/portfolio.png';
-import tomsmetal from 'images/tomsmetal.jpg';
+import niasite from 'images/niasite.jpg';
+import alzsite from 'images/alzsite.jpg';
+import cardsite from 'images/cardsite.jpg';
+import rossite from 'images/rossite.jpg';
+import iqcorpsite from 'images/iqcorpsite.jpg';
 
 // image can be any size. just make sure it is close to a 1:1 ratio - a square.
 
 const projects = [
   {
-    title: 'Travlr',
+    title: 'National Institute on Aging (NIA)',
     description:
       'Travel smarter by saving the places you want to go. This project was an assignment given for an interview. The requirements were to build a web-app that calls the Google Places API. It must include a map with pins and a list of locations, with some interactivity between the two.',
-    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ES6', 'ReactJS', 'Redux'],
-    image: travlr,
-    links: {
-      github: 'https://github.com/jchi2241/travlr',
-      preview: 'https://travlr.justinchi.me/',
-    },
-  },
-  {
-    title: 'Chart the Stock Market',
-    description:
-      'This project is based off this <a href="https://www.freecodecamp.com/challenges/chart-the-stock-market">challenge</a>. Wrangled with styling HighCharts and learned the use of Promises. Data is from the <a href="https://developer.tradier.com/documentation">Tradier API</a>. Search autocomplete relies on the lookup endpoint and sometimes runs slow. Please be patient!',
-    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ES6', 'ReactJS'],
-    image: stockmarketchart,
-    links: {
-      github: 'https://github.com/jchi2241/stockmarketchart',
-      preview: 'https://stock.justinchi.me/',
-    },
-  },
-  {
-    title: 'Wakey Alarm Clock',
-    description:
-      'My first major app built with ReactJS and it was a tremendous learning experience. This project was created for a good friend - check out her <a href="http://www.xiaotongyuchi.com/wakeyalarm">mock-up</a>! Polymer components were taken directly from Google spec to ensure smooth animations on mobile (this was before Material Components existed).',
     skills: [
-      'HTML5',
-      'CSS3',
+      'PHP', 
+      'Drupal', 
+      'USWDS', 
+      'Sass', 
+      'JavaScript', 
+      'Twig', 
+      'Module Development', 
+      'Theming'
+    ],
+    image: niasite,
+    links: {
+      //github: 'https://github.com/',
+      preview: 'https://www.nia.nih.gov',
+    },
+  },
+  {
+    title: 'Alzheimers.gov',
+    description:
+      'Helped build, maintain, and add to a headless site. It is connected to a Drupal site for data, making requests with GraphQL and serving it up with NextJS.',
+    skills: ['NextJS', 'ReactJS', 'GraphQL', 'Drupal', 'Sass', 'Headless'],
+    image: alzsite,
+    links: {
+      //github: 'https://github.com/',
+      preview: 'https://www.alzheimers.gov',
+    },
+  },
+  {
+    title: 'Center for Alzheimer’s and Related Dementias (CARD)',
+    description:
+      'Helped build, maintain, and add to a headless site. It is connected to a Drupal site for data, making requests with GraphQL and serving it up with NextJS.',
+    skills: ['NextJS', 'ReactJS', 'GraphQL', 'Drupal', 'Sass', 'Headless'],
+    image: cardsite,
+    links: {
+      //github: 'https://github.com/',
+      preview: 'https://card.nih.gov',
+    },
+  },
+  {
+    title: 'Rodent Ordering System (ROS)',
+    description:
+      'Drupal Commerce site supported with custom code to connect and integrate grants, grantees/researchers, and administrators throughout the rodent ordering process.',
+    skills: [
+      'PHP',
+      'Drupal',
+      'Commerce',
       'Sass',
       'JavaScript',
-      'ReactJS',
-      'Polymer',
-      'Material Design',
+      'Module Development',
     ],
-    image: wakeyalarmclock,
+    image: rossite,
     links: {
-      github: 'https://github.com/jchi2241/alarmclock',
-      preview: 'https://alarmclock.justinchi.me/',
+      //github: 'https://github.com/',
+      preview: 'https://ros.nia.nih.gov',
     },
   },
-  {
-    title: 'Wakey Weather Backgrounds',
-    description:
-      'Animated backgrounds for when the alarm is triggered in the <a href="https://justinchi.me/alarmclock/">Wakey Alarm Clock</a> app. CSS animations and a bit of JavaScript for the snow and rain. No external libraries.',
-    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript'],
-    image: wakeybackgrounds,
-    links: {
-      github: 'https://github.com/jchi2241/alarmclockweather_animations',
-      preview: 'https://weather-anim.justinchi.me/',
-    },
-  },
-  {
-    title: 'Google Calculator',
-    description:
-      'Applied techniques learned from <a href="https://watchandcode.com/p/practical-javascript">Practical Javascript</a> - writing requirements, iterating, and structuring app as an MVC. This really helped me build a much better foundation in JavaScript for web development. Aside from the Material Components library for the ripples, no frameworks were used. Design is based off the original <a href="https://play.google.com/store/apps/details?id=com.google.android.calculator&hl=en">Google Calculator on Android</a>.',
-    skills: [
-      'HTML5',
-      'CSS3',
-      'Sass',
-      'JavaScript',
-      'ES6',
-      'Material Components',
-    ],
-    image: calculator,
-    links: {
-      github: 'https://github.com/jchi2241/material_calculator',
-      preview: 'https://calc.justinchi.me/',
-    },
-  },
-  {
+  /*{
     title: 'Portfolio',
     description:
       'This page! Responsive website built with ReactJS. The site content is passed in as JSON data, auto-generating components for easy maintenance.',
     skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS'],
     image: portfolio,
     links: {
-      github: 'https://github.com/jchi2241/portfolio',
-      preview: 'https://www.justinchi.me/',
+      github: 'https://github.com/MattClewley/portfolio',
+      preview: 'https://www.mattclewley.github.io/',
     },
-  },
+  },*/
   {
-    title: "Tom's Metal Site",
+    title: "IQ Solutions Corporate Site",
     description:
-      'A revamped version of the website of the company at my first job. You can see the original site <a href="http://www.tomsmetal.com/">here</a>. The site supports mobile, tablet, and desktop sizes. Media queries only - no external libraries or JavaScript.',
-    skills: ['HTML5', 'CSS3'],
-    image: tomsmetal,
+      'A brand-new version of the corporate website. I defined the tech stack and architecture for the update, opting for Drupal, a component-driven approach, and Tailwind CSS.',
+    skills: ['Drupal', 'Tailwind', 'Theming'],
+    image: iqcorpsite,
     links: {
-      github: 'https://github.com/jchi2241/tomsmetal_site',
-      preview: 'https://tomsmetal.justinchi.me/',
+      //github: 'https://github.com/',
+      preview: 'https://iqsolutions.com',
     },
   },
 ];

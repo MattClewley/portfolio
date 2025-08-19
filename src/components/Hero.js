@@ -9,7 +9,7 @@ const Hero = () => {
 
   return (
     <div className="hero-container">
-      <Typewriter className="hero-title" text="Justin Chi" />
+      <Typewriter className="hero-title" text="Matt Clewley" />
       <div className="hero-description">
         I am a Software Engineer at SingleStore (formerly MemSQL).<br />My
         passion is building simple, beautiful user experiences.<br />Check out
