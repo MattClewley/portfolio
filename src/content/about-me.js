@@ -1,30 +1,30 @@
 const statements = [
   {
     input: 'Matthew.location',
-    return: '"San Jose, CA"',
+    return: '"Frederick, MD"',
   },
   {
     input: 'Matthew.contact',
     return:
-      '["<a href="mailto:mattclew21@gmail.com">mattclew21@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/matthew-clewley-79a915140">LinkedIn</a>", "<a rel="noopener" href="https://github.com/MattClewley">github</a>"]',
+      '["<a href="mailto:mattclew21@gmail.com">mattclew21@gmail.com</a>", "<a rel="noopener" target="_blank" href="https://www.linkedin.com/in/matthew-clewley-79a915140">LinkedIn</a>", "<a rel="noopener" target="_blank" href="https://github.com/MattClewley">GitHub</a>"]',
   },
   {
     input: 'Matthew.resume',
     return:
-      '"<a rel="noopener" href="/blank_resume.pdf" target="_blank">blank.pdf</a>"',
+      '"<a rel="noopener" target="_blank" href="/blank_resume.pdf" target="_blank">blank.pdf</a>"',
   },
   {
-    input: 'Matthew.interests',
-    return: '["design", "basketball", "cooking", "traveling"]',
+    input: 'Matthew.experience',
+    return: '["6 years of Full Stack experience developing Drupal web applications."]',
   },
   {
     input: 'Matthew.education',
     return:
-      '"B.Sc. Structural Engineering - University of California, San Diego"',
+      '"B.Sc. Information Science - University of Maryland"',
   },
   {
-    input: 'Matthew.languages',
-    return: '["Typescript", "React", "Go", "Python"]',
+    input: 'Matthew.skillset',
+    return: '["PHP", "React", "Drupal", "Sass", "GraphQL", "Twig"]',
   },
 ];
 

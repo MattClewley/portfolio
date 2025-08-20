@@ -10,7 +10,7 @@ const projects = [
   {
     title: 'National Institute on Aging (NIA)',
     description:
-      'The NIA Site was built with USWDS design system, integrating component based architecture into a Drrupal 10 site',
+      'The NIA Site was built with USWDS design system, integrating component based architecture into a Drupal 10 site',
     skills: [
       'PHP', 
       'Drupal', 
@@ -31,7 +31,7 @@ const projects = [
     title: 'Alzheimers.gov',
     description:
       'Helped build, maintain, and add to a headless site. It is connected to a Drupal site for data, making requests with GraphQL and serving it up with NextJS.',
-    skills: ['NextJS', 'ReactJS', 'GraphQL', 'Drupal', 'Sass', 'Headless'],
+    skills: ['NextJS', 'ReactJS', 'GraphQL', 'TypeScript', 'Drupal', 'Sass', 'Headless'],
     image: alzsite,
     links: {
       //github: 'https://github.com/',
@@ -42,7 +42,7 @@ const projects = [
     title: 'Center for Alzheimer’s and Related Dementias (CARD)',
     description:
       'Helped build, maintain, and add to a headless site. It is connected to a Drupal site for data, making requests with GraphQL and serving it up with NextJS.',
-    skills: ['NextJS', 'ReactJS', 'GraphQL', 'Drupal', 'Sass', 'Headless'],
+    skills: ['NextJS', 'React', 'GraphQL', 'TypeScript', 'Drupal', 'Sass', 'Headless'],
     image: cardsite,
     links: {
       //github: 'https://github.com/',
