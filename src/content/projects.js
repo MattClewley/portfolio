@@ -1,8 +1,8 @@
-import niasite from 'images/niasite.jpg';
-import alzsite from 'images/alzsite.jpg';
-import cardsite from 'images/cardsite.jpg';
-import rossite from 'images/rossite.jpg';
-import iqcorpsite from 'images/iqcorpsite.jpg';
+import niasite from 'images/niasite.png';
+import alzsite from 'images/alzsite.png';
+import cardsite from 'images/cardsite.png';
+import rossite from 'images/rossite.png';
+import iqcorpsite from 'images/iqcorpsite.png';
 
 // image can be any size. just make sure it is close to a 1:1 ratio - a square.
 
