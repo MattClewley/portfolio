@@ -25,7 +25,7 @@ const ProjectLinks = props => {
         target="_blank"
         className="project-link"
       >
-        Live Demo <FontAwesomeIcon icon="external-link-alt" />
+        Live Site <FontAwesomeIcon icon="external-link-alt" />
       </a>
       <a
         href={github}
@@ -33,7 +33,7 @@ const ProjectLinks = props => {
         target="_blank"
         className="project-link secondary"
       >
-        <FontAwesomeIcon icon={['fab', 'github']} /> View Source
+        <FontAwesomeIcon icon={['fab', 'circle-info']} /> More Info
       </a>
     </div>
   );
