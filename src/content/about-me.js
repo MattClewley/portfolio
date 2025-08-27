@@ -24,7 +24,7 @@ const statements = [
   },
   {
     input: 'Matthew.skillset',
-    return: '["PHP", "React", "Drupal", "Sass", "GraphQL", "Twig"]',
+    return: '["PHP", "React", "Drupal", "Sass", "GraphQL", "Twig", "Tailwind", "NodeJS"]',
   },
 ];
 
