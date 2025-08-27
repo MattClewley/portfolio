@@ -23,7 +23,7 @@ const projects = [
     ],
     image: niasite,
     links: {
-      //github: 'https://github.com/',
+      github: 'https://testing.mattclewley.github.io/portfolio',
       preview: 'https://www.nia.nih.gov',
     },
   },
