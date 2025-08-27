@@ -3,13 +3,13 @@ import Layout from 'layouts/index';
 
 const ROSProject = () => (
   <Layout>
-    <React.Fragment>
+    <div className="page__content">
         <h1>Project ROS</h1>
         <section>
         <h2>Overview</h2>
         <p>Add more details here in future, just testing right now...</p>
         </section>
-    </React.Fragment>
+    </div>
   </Layout>
 );
 

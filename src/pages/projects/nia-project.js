@@ -3,13 +3,13 @@ import Layout from 'layouts/index';
 
 const NIAProject = () => (
   <Layout>
-    <React.Fragment>
-        <h1>Project One</h1>
-        <section>
-        <h2>Overview</h2>
-        <p>Add more details here in future, just testing right now...</p>
-        </section>
-    </React.Fragment>
+      <div className="page__content">
+          <h1>Project NIA</h1>
+          <section>
+          <h2>Overview</h2>
+          <p>Add more details here in future, just testing right now...</p>
+          </section>
+      </div>
   </Layout>
 );
 
