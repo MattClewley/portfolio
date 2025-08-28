@@ -7,4 +7,26 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  h1, h2, h3, h4, h5, h6 {
+    color: $grey;
+    font-family: 'Camphor', Open Sans, Segoe UI, sans-serif;
+    font-weight: 500;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4, h5, h6 {
+    font-size: 1.5rem;
+  }
+  * {
+    font-size: 1.2rem;
+  }
 }
