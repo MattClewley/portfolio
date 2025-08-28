@@ -27,6 +27,7 @@ const ProjectLinks = props => {
       >
         Live Site <FontAwesomeIcon icon="external-link-alt" />
       </a>
+      {/* 
       <a
         href={github}
         rel="noopener noreferrer"
@@ -35,6 +36,7 @@ const ProjectLinks = props => {
       >
         <FontAwesomeIcon icon={['fab', 'circle-info']} /> More Info
       </a>
+      */}
     </div>
   );
 };
